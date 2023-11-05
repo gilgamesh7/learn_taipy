@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "learn-taipy"
+version = "0.1.0"
+description = ""
+authors = ["gilgamesh7 <felidaesrule@yahoo.com>"]
+readme = "README.md"
+packages = [{include = "learn_taipy"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+taipy = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
